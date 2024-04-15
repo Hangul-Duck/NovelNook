@@ -1,0 +1,39 @@
+
+    <div class="wrapper">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="container">
+                   <div class="row">
+                        <div class="left-side col-md-7 d-flex justify-content-start">
+                            <img class="Logo" src="assets/img/Logo.png" alt="">
+                            <a href="#">КАТАЛОГ</a>
+                            <a href="#">ТОПЫ</a>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i>ПОИСК</a> 
+                        </div> <!--left-side-->
+                        <div class="right-side col-md-5">
+                            <ul class="button-icons d-flex justify-content-end">
+                                <li><a href="#">ЗАКЛАДКИ</a></li>
+                                <li>
+                                    <a href="#"><i class="fa-solid fa-bell"></i></a>
+                                </li>
+                                <li>
+                                    <div class="btn-group">
+                                        <div class="dropdown">
+                                            <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <i class="fa-solid fa-gear"></i>
+                                            </button>
+                                            <ul class="dropdown-menu">
+                                                <li><a class="dropdown-item" href="#">Адам</a></li>
+                                                <li><a class="dropdown-item" href="#">Ева</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#"><i class="fa-regular fa-circle-user"></i></a></li>
+                            </ul>
+                        </div><!--right-side-->
+                   </div> 
+                </div>
+            </div> <!--Header-top-->
+        </header>
