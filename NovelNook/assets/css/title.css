@@ -1,0 +1,117 @@
+#title{
+    text-align: center;
+}
+#title img{
+    width: 250px;
+    height: 350px;
+}
+
+#title button{
+    margin-top: 10px;
+    width: 225px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#global-sorting{
+    margin-top: 10px;
+    max-width: 203px;
+    text-align: center;
+    background-position:right 5.6rem center;
+
+}
+
+.complain{
+    border: none;
+}
+
+/*======================================================================*/
+.original-name{
+    margin-top: 25px;
+    display: flex;
+    text-align: center;
+}
+/*======================================================================*/
+
+#div_estimation{
+    display: flex;
+    margin-bottom: 0;
+}
+
+img.estimation {
+    max-width: 30px;
+    max-height: 30px;
+}
+.original-name p, .info p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    margin: 0 0 0 2px;
+}
+.line{
+    width: auto;
+    margin: 15px 0 25px;
+    border-top: 3px gainsboro;
+}
+/*======================================================================*/
+
+.add-2{
+    margin-left: 10px;
+}
+
+/*======================================================================*/
+.description{
+    padding: 5px;
+    height: 200px;
+    margin: 10px 0 20px 0;
+}
+
+.comment{
+    margin: 25px 0 15px 0;
+}
+
+.comment button{
+    margin: 10px 0 10px 0;
+}
+
+#author{
+    display: flex;
+}
+#author img{
+    width: 75px;
+    height: 75px;
+}
+p.name{
+    margin: 5px 0 20px 15px;
+}
+
+/*======================================================================*/
+
+#content{
+    display: flex;
+    align-items: center;
+    margin: 5px 12px 5px 12px;
+}
+
+.chapter{
+    height: 60px;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.left, .right{
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.right{
+    width: max-content;
+    margin-left: auto;
+}
+.left span{
+    margin-left: 15px;
+}
+.right span{
+    margin-left: 15px;
+}

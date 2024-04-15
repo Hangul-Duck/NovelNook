@@ -1,0 +1,260 @@
+*{
+    box-sizing: content-box;
+}
+:root{
+    --bg-color: #f2f2f2;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ===================== General rules ===================== */
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+div.main {
+    flex-grow: 1; flex-shrink: 1; flex-basis: 100%;
+    flex: 1 1 auto;
+}
+
+a{
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* ===================== /General rules ===================== */
+
+/* ===================== Recommendations rules ===================== */
+.recommendations{
+    max-height: auto;
+    display: flex;
+    overflow-x: hidden;
+    user-select: none;
+    padding: 0;
+}
+
+.recommendations::-webkit-scrollbar{
+    width: 0px;
+}
+.recommendations .card-rec{
+    margin:0 3px 0 5px;
+    min-width: 10rem;
+    text-align: left;
+    display: inline;
+    
+}
+ .card-rec .rec-end{
+    margin-right: 0px;
+}
+/* ===================== /Recommendations rules ===================== */
+
+/* ===================== New rules ===================== */
+.new{
+    max-height: auto;
+    display: flex;
+    overflow-x: hidden;
+    user-select: none;
+    padding: 0;
+}
+
+.new::-webkit-scrollbar{
+    width: 0px;
+}
+.new .card-new{
+    margin:0 3px 0 5px;
+    min-width: 8.5rem;
+    text-align: left;
+    display: inline;
+    
+}
+ .card-rec .new-end{
+    margin-right: 0px;
+}
+/* ===================== /New rules ===================== */
+
+/* ===================== New-season rules ===================== */
+.title-card {
+    margin-bottom: 5px;
+}
+.card-text{
+    margin-left: 7px;
+    max-width: 230px;
+    display: flex;
+    align-items: center;
+}
+
+/* ===================== /New-season rules ===================== */
+
+/* ===================== update rules ===================== */
+.up-img{
+    width: 100;
+    height: 160px;
+}
+.block{
+    width: auto;
+}
+.line{
+    border-bottom: 1px darkgray solid;
+    margin-bottom: 3px;
+}
+
+/* ===================== /update rules ===================== */
+
+/* ===================== /Carousel rules ===================== */
+ul.list-group{
+    list-style-type: none;
+}
+.Headings{
+    margin-top: 12px;
+}
+
+.nameTitle h6{
+    font-weight: lighter;
+}
+.addText{
+    color: var(--additional-text);
+    font-size: small;
+    vertical-align: top;
+    display: inline-block;
+}
+
+
+/* ================== themy ======================== */
+#bd-theme{
+    margin-right:10px;
+}
+
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  .b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+  
+  .nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+  
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+  }
+
+  /* =============================== Catalog ============================ */
+#global-sorting{
+    max-width: max-content;
+}
+
+
+.title{
+    max-width: 145px;
+    display: inline-block;
+    margin:0 10px 15px 0;
+}
+.filter-type, .filter-genres, .filter-project-status{
+    margin-bottom: 7px;
+}
+
+.from, .before{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    max-width: 60px;
+}
+.filter-text{
+    margin-bottom: 5px;
+    margin-bottom: 5px;
+}
+.addBlocks{
+    margin-top: 15px;
+    width: 100px;
+}
+
+/* ======================= scrollToTop ============================ */
+.back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 99;
+  }
+  .back-to-top-button {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+  .back-to-top-arrow {
+    font-size: 20px;
+  }
+  
+  .dropdown-item {
+    width: 82%;
+  }
